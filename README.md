@@ -1,2 +1,2 @@
 # CVSat
-Official repository of the AuxGeo method for street and VHR satellite cross-view geo-localization. The codes, CVSat dataset, and trained models will be availabel soon.
+Official repository of the paper _Cross-View Geo-Localization with Street-View and VHR Satellite Imagery in Decentrality Settings_. The codes and CVSat dataset will be availabel soon.

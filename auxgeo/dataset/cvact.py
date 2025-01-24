@@ -361,7 +361,7 @@ class CVACTDatasetTest(Dataset):
 
         label = torch.tensor(self.idx2num_idx[idx], dtype=torch.long)
 
-        return img, label
+        return img, label, (0, 0)
 
     def __len__(self):
         return len(self.test_ids)

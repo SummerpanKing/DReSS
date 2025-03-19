@@ -12,4 +12,4 @@ Official repository of the paper _Cross-View Geo-Localization with Street-View a
 
 ## DReSS dataset
 
-We have made the proposed dataset available on Hugging Face at [https://huggingface.co/datasets/SummerpanKing/DReSS]. To ensure compliance with Google Street View API's privacy policies, we provide only the panorama IDs in the released dataset. If you encounter any issues with usage or downloading, feel free to contact us via email.
+We have made the proposed dataset available on Hugging Face at [https://huggingface.co/datasets/SummerpanKing/DReSS]. To ensure compliance with Google Street View API's privacy policies, we provide only the panorama IDs in the released dataset. If you encounter any issues with usage or downloading, feel free to contact us via email [xiapanwang@whu.edu.cn].

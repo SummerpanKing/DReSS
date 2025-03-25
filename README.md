@@ -19,7 +19,7 @@ The cross-view geo-localization (CVGL) task aims to retrieve the best-matched sa
 
 To construct a more practical reference database, seamless tiling methods (e.g., VIGOR) are employed. However, this inevitably introduces **positional offsets**, which we define as **decentrality**, where queries are not always located at the center of their best-matched reference images. As decentrality increases, queries tend to be positioned toward the edges, making feature extraction and matching more challenging. Since there is no established industry standard for constructing seamless reference databases over an area of interest (AOI). 
 
-![decentrality_vis_perceptron](E:\MyPublications\manuscripts\3_SkyMAP-submitted-JPRS\代码仓库\figures\decentrality_vis_perceptron.jpg)
+![decentrality_vis_perceptron](./figures/decentrality_vis_perceptron.jpg)
 
 ## 2. DReSS: Decentrality Related Street-view and Satellite-view dataset
 DReSS dataset covers over 400 \(km^2\) in each of eight diverse cities around the world. The dataset consists of 422,760 aerial images sourced from Esri World Imagery, captured at zoom level 18 with a ground resolution of approximately 0.597 \(m\). Each aerial image has a resolution of (224 × 224) pixels. Additionally, DReSS features 174,934 street-view panoramas obtained using the Google Street View. These panoramas are randomly distributed within the coverage area of the aerial images, with an average interval of about 500 \(m\) between samples. The panoramas are North-aligned, and each has a resolution of (2048 × 1024) pixels. 
@@ -28,7 +28,7 @@ To download the DReSS dataset (including aerial images and IDs of street-view im
 
 ### City distribution
 
-![dataset_locations](E:\MyPublications\manuscripts\3_SkyMAP-submitted-JPRS\代码仓库\figures\dataset_locations.jpg)
+![dataset_locations](./figures/dataset_locations.jpg)
 
 
 
@@ -46,7 +46,7 @@ With these IDs, users can retrieve the panoramas using the [Google Street View S
 
 
 
-![framework](E:\MyPublications\manuscripts\3_SkyMAP-submitted-JPRS\代码仓库\figures\framework.jpg)
+![framework](./figures/framework.jpg)
 
 
 

@@ -47,7 +47,6 @@ def train(train_config, model, dataloader, loss_function, optimizer, scheduler=N
                 query_bev = query_bev.to(train_config.device)
                 reference = reference.to(train_config.device)
 
-                # -- note that we remove the image dropout and rotation processes to guarantee the positions.
                 positions = torch.cat((positions[0].unsqueeze(0), positions[1].unsqueeze(0)), 0).permute(1, 0).to(
                     'cuda')
 

@@ -22,13 +22,13 @@ To construct a more practical reference database, seamless tiling methods (e.g.,
 ## 2. DReSS: Decentrality Related Street-view and Satellite-view dataset
 DReSS dataset covers over 400 \(km^2\) in each of eight diverse cities around the world. The dataset consists of 422,760 aerial images sourced from Esri World Imagery, captured at zoom level 18 with a ground resolution of approximately 0.597 \(m\). Each aerial image has a resolution of (224 × 224) pixels. Additionally, DReSS features 174,934 street-view panoramas obtained using the Google Street View. These panoramas are randomly distributed within the coverage area of the aerial images, with an average interval of about 500 \(m\) between samples. The panoramas are North-aligned, and each has a resolution of (2048 × 1024) pixels. 
 
-To download the DReSS dataset (including aerial images and IDs of street-view images), you can click: [🤗DReSS](https://huggingface.co/datasets/SummerpanKing/DReSS).
 
 ### City distribution
 
 ![dataset_locations](./figures/dataset_locations.jpg)
 
 
+To download the DReSS dataset, you can follow the instructions below:
 
 ### Street-View Image download
 
@@ -36,7 +36,12 @@ To comply with Google Street View's policies, we only provide the **panorama IDs
 
 With these IDs, users can retrieve the panoramas using the [Google Street View Static API](https://developers.google.com/maps/documentation/streetview?hl=zh-cn) or [third-party tools](https://svd360.com/).
 
-**If you have any questions or encounter any issues during access or download, feel free to contact us** at [xiapanwang@whu.edu.cn].
+### Aerial-View Image download
+To comply with Esri's policies, we only provide the **coordinates and zoom level** along with instructions for downloading. This allows users to access the dataset independently.
+
+With these coordinates and zoom level, users can retrieve the aerial-view reference images using the [Esri API](https://github.com/andolg/satellite-imagery-downloader).
+
+**If you have any questions or encounter any issues during access or download, feel free to contact us** at [xiapanwang@whu.edu.cn], we will help you downloading the DReSS as soon as possible.
 
 
 

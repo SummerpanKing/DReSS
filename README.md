@@ -28,7 +28,7 @@ DReSS dataset covers over 400 \(km^2\) in each of eight diverse cities around th
 ![dataset_locations](./figures/dataset_locations.jpg)
 
 
-To download the DReSS dataset, you can follow the instructions below:
+To download the [DReSS dataset](https://pan.baidu.com/s/1m3VLsyX3mIl1DmK_X6v4Lw?pwd=MAgs ), you can follow the instructions below:
 
 ### Street-View Image download
 

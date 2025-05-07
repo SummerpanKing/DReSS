@@ -1,11 +1,15 @@
 # Cross-View Geo-Localization with Panoramic Street-View and VHR Satellite Imagery in Decentrality Settings
 [![Paper](http://img.shields.io/badge/paper-arXiv.2412.11529-B31B1B.svg)](https://arxiv.org/abs/2412.11529)
 
+This work has been accepted by ISPRS Journal.
 
 
-## To do list
+## ✅ To-Do
 
-1. Tools for preprocessing Street View panoramas and establishing custom datasets.
+- [x] Initial repo structure
+- [x] Training scripts
+- [x] DReSS Dataset
+- [ ] Tools for building your own dataset
 
 
 
@@ -23,20 +27,21 @@ To construct a more practical reference database, seamless tiling methods (e.g.,
 DReSS dataset covers over 400 \(km^2\) in each of eight diverse cities around the world. The dataset consists of 422,760 aerial images sourced from Esri World Imagery, captured at zoom level 18 with a ground resolution of approximately 0.597 \(m\). Each aerial image has a resolution of (224 × 224) pixels. Additionally, DReSS features 174,934 street-view panoramas obtained using the Google Street View. These panoramas are randomly distributed within the coverage area of the aerial images, with an average interval of about 500 \(m\) between samples. The panoramas are North-aligned, and each has a resolution of (2048 × 1024) pixels. 
 
 
-### City distribution
+### 2.1 City distribution
 
 ![dataset_locations](./figures/dataset_locations.jpg)
 
 
+### 2.2 Dataset Download
 To download the [DReSS dataset](https://pan.baidu.com/s/1m3VLsyX3mIl1DmK_X6v4Lw?pwd=MAgs ), you can follow the instructions below:
 
-### Street-View Image download
+#### Street-View Image download
 
 To comply with Google Street View's policies, we only provide the **panorama IDs** along with instructions for downloading. This allows users to access the dataset independently.
 
 With these IDs, users can retrieve the panoramas using the [Google Street View Static API](https://developers.google.com/maps/documentation/streetview?hl=zh-cn) or [third-party tools](https://svd360.com/).
 
-### Aerial-View Image download
+#### Aerial-View Image download
 To comply with Esri's policies, we only provide the **coordinates and zoom level** along with instructions for downloading. This allows users to access the dataset independently.
 
 With these coordinates and zoom level, users can retrieve the aerial-view reference images using the [Esri API](https://github.com/andolg/satellite-imagery-downloader).
@@ -47,11 +52,7 @@ With these coordinates and zoom level, users can retrieve the aerial-view refere
 
 ## 3. Framework: AuxGeo
 
-
-
 ![framework](./figures/framework.jpg)
-
-
 
 ### Train the AuxGeo model
 ```python

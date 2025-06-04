@@ -1,7 +1,7 @@
 # Cross-View Geo-Localization with Panoramic Street-View and VHR Satellite Imagery in Decentrality Settings
 [![Paper](http://img.shields.io/badge/paper-arXiv.2412.11529-B31B1B.svg)](https://arxiv.org/abs/2412.11529)
 
-This work has been accepted by ISPRS Journal.
+This work has been accepted by ISPRS Journal [https://www.sciencedirect.com/science/article/pii/S0924271625001753].
 
 
 ## ✅ To-Do

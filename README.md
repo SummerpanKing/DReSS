@@ -90,11 +90,14 @@ python eval_skymap_cross.py
 This code is based on the amazing work of: [Sample4Geo](https://github.com/Skyy93/Sample4Geo) and [HC-Net](https://github.com/xlwangDev/HC-Net). We appreciate the previous open-source works.
 ## Citation✅
 ```
-  @article{xia2024cross,
-  title={Cross-View Geo-Localization with Street-View and VHR Satellite Imagery in Decentrality Settings},
+  @article{xia2025cross,
+  title={Cross-view geo-localization with panoramic street-view and VHR satellite imagery in decentrality settings},
   author={Xia, Panwang and Yu, Lei and Wan, Yi and Wu, Qiong and Chen, Peiqi and Zhong, Liheng and Yao, Yongxiang and Wei, Dong and Liu, Xinyi and Ru, Lixiang and others},
-  journal={arXiv preprint arXiv:2412.11529},
-  year={2024}
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={227},
+  pages={1--11},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 

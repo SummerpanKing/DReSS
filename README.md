@@ -33,7 +33,7 @@ DReSS dataset covers over 400 \(km^2\) in each of eight diverse cities around th
 
 
 ### 2.2 Dataset Download
-To download the [DReSS dataset](https://pan.baidu.com/s/1m3VLsyX3mIl1DmK_X6v4Lw?pwd=MAgs ), you can follow the instructions below:
+To download the DReSS dataset([Baidu Netdisk](https://pan.baidu.com/s/1m3VLsyX3mIl1DmK_X6v4Lw?pwd=MAgs ), [Huggingface part-1](https://huggingface.co/datasets/SummerpanKing/DReSS-part1), [Huggingface-part2](https://huggingface.co/datasets/Mabel0403/DReSS-part2)), you can follow the instructions below:
 
 #### Street-View Image download
 
